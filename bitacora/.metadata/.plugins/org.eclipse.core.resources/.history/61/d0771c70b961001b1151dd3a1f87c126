@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmls:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>OCTABD</title>
+</head>
+<body>
+	<h1>Hola mundo</h1>
+	
+	
+	<a th:href="@{/lang}">Lang</a>
+	
+	
+	#{lang.title.message}
+</body>
+</html>

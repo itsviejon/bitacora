@@ -1,0 +1,5 @@
+package com.octaspring.service;
+
+public class LangService {
+
+}

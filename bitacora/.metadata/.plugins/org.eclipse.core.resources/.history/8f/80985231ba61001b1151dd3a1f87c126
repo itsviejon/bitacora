@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmls:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>OCTABD</title>
+</head>
+<body>
+	<h1 th:text="${name}"></h1>
+
+<table>
+	<tbody>
+		<tr>
+			<th>Idioma</th>
+			<th>Acciones</th>
+		</tr>
+		<tr th:each="item : ${listaTL}">
+			<td th:text="${item.lang}"></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,5 @@
+package com.octaspring.dao;
+
+public class LangInterface {
+
+}
